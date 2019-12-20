@@ -28,7 +28,7 @@ const PostLink = ({ show }) => (
 
 const Index = props => (
    <Layout>
-      <h1>Batman TV Shows</h1>
+      <h1>Fetched TV Shows</h1>
       <ul>
          {props.shows.map(show => (
             <PostLink key={show.id} show={show} />
